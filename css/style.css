@@ -4,6 +4,10 @@
 				font-size: 12px;
 				font-family: "微软雅黑";
 			}
+			.clear:after {
+	display: block;
+	content: "";
+	clear: both;}
 			.w {
 	width: 1200px;
 	margin: 0 auto;}
@@ -11,7 +15,7 @@
 			a{text-decoration: none;
 			color: #DCDCDC;}
 			.left{float: left;
-			margin-left: 84px;}
+			}
 			.right{float: right;
 			margin-right: 90px;}
 			.top{
@@ -31,7 +35,8 @@
 	top: 40px;
 	left: 0px;
 	text-align: center;
-	}
+	
+	z-index: 10000;}
 	.top .left ul li ul{display: none;}
 	.top li span{
 	padding-left: 20px;
@@ -75,3 +80,22 @@
 .right{position: relative;}
 .right .wx2 img{position:absolute ;top: 40px;
 left: 0px;}
+/*head*/
+.head{
+	width: 1200px;
+	margin: 0 auto;
+	height: 115px;
+	position: relative;
+}
+.head .hdlogo1{width: 240px;
+height: 115px;
+float: left;}
+.head .hdlogo2{
+	float: left;
+    width: 250px;
+    font-size: 16px;
+    color: #333;
+    padding: 50px 85px 40px 15px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
