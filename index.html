@@ -3,7 +3,117 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
 	<body>
+<div class="top">
+	<div class="w">
+	<div class="left">
+	<ul>
+		<li><a href="">首页<span class="row"></span></a></li>
+		<li><a href="">学院介绍<span class="row"></span></a>
+			<ul>
+				<li><a href="">学院简介</a></li>
+				<li><a href="">文化风采</a></li>
+				<li><a href="">办学特色</a></li>
+				<li><a href="">发展进程</a></li>
+				<li><a href="">新闻媒体</a></li>
+				<li><a href="">校区分布</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</li>
+		<li><a href="">课程导航<span class="row"></span></a>
+			<ul>
+				<li><a href="">学院简介</a></li>
+				<li><a href="">文化风采</a></li>
+				<li><a href="">办学特色</a></li>
+				<li><a href="">发展进程</a></li>
+				<li><a href="">新闻媒体</a></li>
+				<li><a href="">校区分布</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</li>
+		<li><a href="">师资力量<span class="row"></span></a>
+			<ul>
+				<li><a href="">学院简介</a></li>
+				<li><a href="">文化风采</a></li>
+				<li><a href="">办学特色</a></li>
+				<li><a href="">发展进程</a></li>
+				<li><a href="">新闻媒体</a></li>
+				<li><a href="">校区分布</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</li>
+		<li><a href="">学员作品<span class="row"></span></a>
+			<ul>
+				<li><a href="">学院简介</a></li>
+				<li><a href="">文化风采</a></li>
+				<li><a href="">办学特色</a></li>
+				<li><a href="">发展进程</a></li>
+				<li><a href="">新闻媒体</a></li>
+				<li><a href="">校区分布</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</li>
+		<li><a href="">考证学历<span class="row"></span></a>
+			<ul>
+				<li><a href="">学院简介</a></li>
+				<li><a href="">文化风采</a></li>
+				<li><a href="">办学特色</a></li>
+				<li><a href="">发展进程</a></li>
+				<li><a href="">新闻媒体</a></li>
+				<li><a href="">校区分布</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</li>
+		<li><a href="">就业信息<span class="row"></span></a>
+			<ul>
+				<li><a href="">学院简介</a></li>
+				<li><a href="">文化风采</a></li>
+				<li><a href="">办学特色</a></li>
+				<li><a href="">发展进程</a></li>
+				<li><a href="">新闻媒体</a></li>
+				<li><a href="">校区分布</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</li>
+		<li><a href="">学习资讯<span class="row"></span></a>
+			<ul>
+				<li><a href="">学院简介</a></li>
+				<li><a href="">文化风采</a></li>
+				<li><a href="">办学特色</a></li>
+				<li><a href="">发展进程</a></li>
+				<li><a href="">新闻媒体</a></li>
+				<li><a href="">校区分布</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</li>
+		<li><a href="">入学须知<span class="row"></span></a></li>
+	</ul>
+	</div>
+	<div class="right">
+		<div class="wx">
+		<img  src="images/wx.png" /></div>
+		<div class="wx2">
+	<img   src="images/wx2.jpg" style="display: none;"/>
+	</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript">
+			$(".top ul li").hover(function(){
+				$(this).children("ul").slideDown(200);
+				$(this).addClass("active");
+			},function(){
+				$(this).children("ul").slideUp(200);
+				$(this).removeClass("active");
+				
+			});
+			
+			$(".wx img").hover(function(){
+				$(".wx2").children("img").fadeIn(200);
+			},function(){$(".wx2").children("img").fadeOut(200);});
+		</script>
 	</body>
 </html>

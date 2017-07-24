@@ -1,0 +1,77 @@
+*{
+				margin: 0;
+				padding: 0;
+				font-size: 12px;
+				font-family: "微软雅黑";
+			}
+			.w {
+	width: 1200px;
+	margin: 0 auto;}
+			li{list-style: none;}
+			a{text-decoration: none;
+			color: #DCDCDC;}
+			.left{float: left;
+			margin-left: 84px;}
+			.right{float: right;
+			margin-right: 90px;}
+			.top{
+				height: 40px;
+				width: 100%;
+				line-height: 40px;
+				background-color: #535353;
+			}
+			
+	.top .left ul li{float: left;
+	
+		padding:0 10px;
+		position: relative;
+	}
+	.top .right ul li img{padding-top: 10px;}	
+	.top .left ul li ul{position: absolute;
+	top: 40px;
+	left: 0px;
+	text-align: center;
+	}
+	.top .left ul li ul{display: none;}
+	.top li span{
+	padding-left: 20px;
+}
+.top li span:after{
+	display: inline-block;
+	content: ">";
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.top li.active span:after{
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	transform: rotate(270deg);}
+	.top ul li:hover{
+	background-color: white;}
+	.top ul ul li:hover{
+	background-color: white;
+}
+.top ul li:hover a{
+	color: #535353; text-align: center;}
+.top ul ul{display: block;
+	text-align: center;
+	background-color: white;
+	width: 98px;
+	line-height: 32px;
+	position: absolute;
+	border: solid 1px gainsboro;
+	border-top-color: #fff;
+	top: 40px;
+	left: 0px;
+}
+.top ul ul li:hover a{
+	color: #dd2727;
+}
+.right .wx img{
+	margin: 10px 4px;
+	cursor: pointer;
+}
+.right{position: relative;}
+.right .wx2 img{position:absolute ;top: 40px;
+left: 0px;}
