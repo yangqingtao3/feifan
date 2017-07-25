@@ -346,7 +346,37 @@
 				
 			</div>
 		</div>
-		<div class="xinwen"></div>
+		<div class="xinwen">
+			<div class="xwdh">
+				<div class="tab1">
+					<ul class="hand">
+						<li class="now">学院动态</li>
+						<li>行业观察</li>
+						<li>学习资讯</li>
+					</ul>
+				</div>
+			<div class="tablist">
+				<ul class="news">
+					<li class="item"><a class="feed" href=""><img src="images/201707201656467.jpg" alt=""></img><span>07-20</span></a>
+						<div class="ad">
+							<div class="adn">
+								<a>活力假期，“暑”你精彩—非凡学院第..</a>
+							</div>
+							<a class="small">7月19日，非凡学院第六期就业班新生会如期举行。炎炎的烈日挡不住学员们学习的热情，相信..</a>
+						</div>
+					</li>
+					<li class="item"><a  class="feed" href=""><img src="" alt=""></img><span></span></a></li>
+					<li class="item"><a class="feed" href=""><img src="" alt=""></img><span></span></a></li>
+					<li class="item"><a class="feed" href=""><img src="" alt=""></img><span></span></a></li>
+					<li class="item"><a class="feed" href=""><img src="" alt=""></img><span></span></a></li>
+					<li class="item"><a class="feed" href=""><img src="" alt=""></img><span></span></a></li>
+					<li class="item"><a class="feed" href=""><img src="" alt=""></img><span></span></a></li>
+					<li class="item"><a class="feed" href=""><img src="" alt=""></img><span></span></a></li>
+					
+				</ul>
+			</div>
+			</div>
+		</div>
 		<div class="youtu"></div>
 		
 	</div>
@@ -361,10 +391,11 @@
 				$(this).removeClass("active");
 				
 			});
-			
+			//微信
 			$(".wx img").hover(function(){
 				$(".wx2").children("img").fadeIn(200);
 			},function(){$(".wx2").children("img").fadeOut(200);});
+			//悬浮tu
 			$(document).ready(function(){
 				
 				var h = $(window).height();
@@ -379,6 +410,7 @@
 					$(".side-ad").stop(true,true).animate({top:top+offsetTop+"px"},1000);
 				});
 			});
+			//banner
 			$(function(){
 				var $tabLi=$("#banner .tab li");
 				var $picLi=$("#banner .pic li");
@@ -425,14 +457,18 @@
 					$picLi.eq(index).stop(true).fadeIn().siblings().stop(true).fadeOut();	
 				};
 			});
+		//列表
 		$(".lis li").hover(function(){
 				$(this).children(".hide").show(200);
 				
 			},function(){
 				$(this).children(".hide").hide(200);
 			});	
-				
-			
+			//学院导航	
+			$(".tab1 li").hover(function(){
+					 index=$(this).index();
+					$(this).addClass("now").siblings().removeClass("now");
+				});
 		</script>
 	</body>
 </html>
