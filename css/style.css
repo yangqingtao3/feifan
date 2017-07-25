@@ -13,7 +13,7 @@
 	margin: 0 auto;}
 			li{list-style: none;}
 			a{text-decoration: none;
-			color: #DCDCDC;}
+			color: #ccc;}
 			.left{float: left;
 			}
 			.right{float: right;
@@ -79,7 +79,8 @@
 }
 .right{position: relative;}
 .right .wx2 img{position:absolute ;top: 40px;
-left: 0px;}
+left: 18px;
+z-index: 99999;}
 /*head*/
 .head{
 	width: 1200px;
@@ -140,7 +141,7 @@ line-height: 40px;
 
 }
 .hdtell img{
-	z-index: 100004444;
+	z-index: 999;
 	float: left;
 }
 /*banner*/
@@ -167,7 +168,7 @@ line-height: 40px;
 				position: absolute;
 				bottom: 26px;
 				left: 50%;
-				margin-left: -140PX;
+				margin-left: -80PX;
 				
 			}
 			.tab ul li{float: left;
@@ -194,3 +195,113 @@ line-height: 40px;
 				#banner .btn{display: none;}
 				#leftBtn{left: 0px;}
 				#rightBtn{right: 0px;}
+/*contain*/
+#contain{width: 1200px;
+margin: 0 auto;
+position: relative;
+background-color: gold;}
+#contain .JJ1{
+	margin-top: 28px;
+}
+#contain .JJ1 .fl{
+	
+	width: 220px;
+float: left;
+height: 450px;
+
+}
+.neibu{
+	position: absolute;
+top: 0px;
+left: 0;
+z-index: 1000;
+width: 220px;
+background-color: #ffffff;
+}
+.neibu h2{
+	background: url(../images/zk.png) no-repeat 20px center;
+	width: 170px;
+padding-left: 50px;
+height: 38px;
+line-height: 38px;
+color: #fff;
+font-size: 16px;
+font-weight: 400;
+cursor: pointer;
+}
+.xinwen{
+	width: 730px;
+float: left;
+height: 450px;
+margin-left: 25px;
+margin-right: 25px;
+
+}
+.youtu{
+	
+	width: 200px;
+float: left;
+height: 450px;
+}
+.neibu .lis{
+	padding-left: 0px;
+width: 218px;
+margin-top: 0px;
+
+height: 412px;
+border: 1px solid #ddd;
+}
+
+.lis li{
+	line-height: 40px;
+height: 40px;
+
+border-top: 1px #ddd solid;
+margin-right: 0px;
+padding-left: 20px;
+
+}
+.lis li a{display: inline-block;
+height: 40px;
+white-space: nowrap;
+color:#999;
+padding-right: 20px;
+cursor: pointer;
+}
+.lis li a:hover {color: #DD2727;}
+.lis li a.big{
+	font-size: 16px;
+font-family: "\5FAE\8F6F\96C5\9ED1";
+color: #333;
+
+}
+.hide{position: absolute;
+z-index: 999;
+left: 220px;
+top: 38px;
+background-color: #fff;
+border: 1px #ddd solid;
+display: none;
+border-left: 0 none;
+width: 620px;
+height: 412px;
+overflow: hidden;
+}
+.hdul{width: 620px;
+height: 400px;
+}
+.hdul li{float: left;
+margin-top: 20px;
+margin-left: 20px;
+width: 270px;
+line-height: 22px;
+border-bottom: 0;
+height: 40px;
+font-size: 12px;
+color: #999;
+padding-left: 20pxs;
+}
+.hdul li a{font-size: 14px;
+color: #333;
+cursor: pointer;
+}
