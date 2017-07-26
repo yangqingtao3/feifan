@@ -199,7 +199,7 @@ line-height: 40px;
 #contain{width: 1200px;
 margin: 0 auto;
 position: relative;
-background-color: gold;}
+}
 #contain .JJ1{
 	margin-top: 28px;
 }
@@ -251,7 +251,7 @@ text-align: center;
 float: left;
 display: inline;
 font-size: 16px;}
-.tab1 li.now{cursor: pointer;
+.now{cursor: pointer;
 font-size: 16px;
 color: #dd2727;
 text-align: center;
@@ -402,3 +402,24 @@ float: left;}
     height: 10px;
     color: #afafaf;
     font: 12px "Microsoft YaHei" ! important;}
+/*最新开班*/
+.jj2{margin-top: 48px;}
+.tab4{width: 1200px;
+height: 32px;
+border-bottom: 1px solid #ddd
+}
+.kb{font-size: 22px;
+font-family: "Microsoft YaHei" !important;
+color: #333;
+font-weight: lighter;
+margin-right: 155px;
+
+float: left;}
+.hand{cursor: pointer;}
+.tab4 li{padding: 0 20px;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+float: left;
+display: inline;
+}
