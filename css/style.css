@@ -265,7 +265,9 @@ color: #333;
 line-height: 24px;
 padding: 5px;
 }
-.news{height: 180px;}
+.m{height: 410px;}
+
+.news{height: 410px;}
 .item{width: 360px;
 height: 70px;
 float: left;
@@ -374,3 +376,29 @@ padding-left: 20pxs;
 color: #333;
 cursor: pointer;
 }
+.youtu{width: 200px;
+float: left;}
+.caption{width: 200px;
+    height: 130px;
+    margin-top: 10px;
+   overflow: hidden;
+    position: relative;}
+.rm{font-size: 16px;
+    padding-top: 6px;
+    font-family: "微软雅黑";
+    text-align: center;}
+    .n{position: absolute;
+    background: #000;
+    height: 100px;
+    width: 100%;
+    opacity: 0.8;
+    top: 100px;}
+    h3{margin: 5px 10px 8px 10px;
+    color: #FFF;
+    font: 12px "Microsoft YaHei" ! important;
+    letter-spacing: -1px;
+    font-weight: bold;}
+    p{padding: 0px 10px;
+    height: 10px;
+    color: #afafaf;
+    font: 12px "Microsoft YaHei" ! important;}
