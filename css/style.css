@@ -509,3 +509,26 @@ font-size: 14px;}
     text-decoration: none;
     font-size: 14px;
     text-align: center;}
+/*滑动报名*/
+.demo{width: 1090px;
+height: 33px;
+overflow: hidden;
+line-height: 33px;
+font-size: 14px;
+font-family: '微软雅黑';
+color: #333;
+position: relative;
+}
+.demo ul{
+	margin: 0px;
+   padding: 0px;
+	list-style: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	}
+.demo ul li{width: 260px;
+				float: left;
+				padding-right: 50px;
+				}
+.demo ul li a{color: #333;}						
