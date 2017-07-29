@@ -104,6 +104,7 @@ float: left;}
 	position: absolute;
 	left: 0;
 	top: 0px;
+	z-index: 999999;
 }
 .hd3{
 	float: left;
@@ -531,4 +532,191 @@ position: relative;
 				float: left;
 				padding-right: 50px;
 				}
-.demo ul li a{color: #333;}						
+.demo ul li a{color: #333;}	
+/*师资力量*/
+.zxbox{width: 100%;
+height: 320px;
+}
+.tittle1{width: 100%;
+height: 40px;
+padding-bottom: 20px;
+}
+.fl{float: left;}
+.fl h2{font-size: 22px;
+color: #333333;
+font-family: "微软雅黑";}	
+.r5{margin-top: 5px;}
+.rs{float: right;}
+.r5 span{background: url(../images/师资力量/more.png) no-repeat;
+width: 16px;
+height: 16px;
+float: right;
+margin-left: 6px;
+margin-top: 3px;
+}
+.tittle1 a{color: #333333;
+font-size: 14px;
+line-height: 22px;}	
+.hd{height: 30px;
+padding: 5px 10px;
+float: right;
+cursor: pointer
+}
+.hd a{color: #DD2727;
+font-size: 20px;}
+/*老师图片*/	
+.roll{width: 1200px;
+height: 260px;
+margin-top: 1px;
+float: left;
+background: #fff;
+overflow: hidden;
+}
+.tempWrap{width: 1204px;
+overflow: hidden;
+
+height: 253px;}
+.tempWrap ul{position: relative;
+height: 100%;}	
+.tempWrap ul li{float: left;
+width: 270px;
+padding: 1px 8px 8px 8px;
+height: 244px;
+margin-left: 15px;
+position: relative;
+
+}	
+.mask{width: 270px;
+height: 180px;
+margin: 1px 8px 8px 8px;
+display: none;
+position: absolute;
+top: 0px;
+left: 0px;
+background-color: rgba(0, 0, 0, .7)
+}
+.mask p{margin-top: 15px;
+padding: 20px 12px;
+text-align: left;
+color: #fff;}
+.js-title{height: 30px;
+font-size: 14px;
+line-height: 30px;
+padding-top: 10px;
+color: #333333;}
+.js-zc{height: 20px;
+font-size: 12px;
+line-height: 20px;
+color: #999;
+}
+.js-zc span{background-image: url(../images/师资力量/zan.gif);
+float: right;
+
+width: 11px;
+height: 13px;
+background-repeat: no-repeat;
+background-position: right;
+}
+/*学生作品*/
+.tablist2{height: 300px;
+width: 1200px;
+
+position: relative;}
+.xszplist{width: 100%;
+height: 258px;
+position: absolute;
+top: 0px;
+left: 0px;}
+.xszplist li{float: left;
+height: 180px;
+width: 270px;
+margin-right: 18px;
+
+padding: 8px;
+}
+.xslist{display: none;}
+/*就业明星*/
+.jymx{width: 100%;
+height: 278px;}
+.blk_18{
+	position: relative;
+height:228px;
+margin-top: 8px;
+font-size: 12px;
+overflow: hidden;
+width: 1200px;
+background: #F3F3F3;
+}
+.pcont{width: 1101px;
+height: 100%;
+margin: 30px auto 0px auto;
+/*background-color: teal;*/
+overflow: hidden;}
+.icon-left,.icon-right{width: 40px;
+height: 68px;
+
+margin-top:-34px ;
+font-size: 40px;
+top: 50%;
+position: absolute;
+text-align: center;}
+.icon-left{left: 10px;}
+.icon-right{right: 10px;}
+.icon-right:hover{background-color: #333333;
+cursor: pointer;
+color: #CCCCCC;}
+.icon-left:hover{background-color: #333333;
+cursor: pointer;
+color: #CCCCCC;}
+.feedback-list{width: 100%;
+height: 180px;
+overflow: hidden;}
+.feedback-list li{width: 366.667px;
+height: 180px;
+float: left;}
+.feedback-headimg{display: block;
+width: 87px;
+text-align: center;
+font-size: 14px;
+color: #333;
+float: left;
+color: #333;
+margin-left: 20px;
+padding-top: 20px;
+}
+.feedback-headimg img{width: 74px;
+height: 74px;
+border-radius: 80px;
+display: block;
+margin: 0 auto 10px
+}
+.feedback-headimg span{height: 40px;
+display: block;
+overflow: hidden;
+}
+.feedback-info{text-align: justify;
+padding: 0 34px 0 119px;
+font-size: 14px;
+color: #999;
+line-height: 24px;
+}
+.feedback-desc{color: #333;
+margin-bottom: 16px;
+display: block;
+height: 21px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-size: 14px;
+}
+.feedback-qy{color: #666;
+margin-top: 10px!important;
+font-size: 14px!important;
+display: block;
+height: 21px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+.feedback-info a{text-align: justify;
+font-size: 14px;
+color: #666;}
