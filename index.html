@@ -3117,11 +3117,13 @@
 				$(document).ready(function() {
 
 					var h = $(window).height();
+					
 					var sh = $(".side-ad").height();
+					console.log(offsetTop);
 					// 上边滑动的距离
 					var offsetTop = $(window).scrollTop();
 					var top = (h - sh) / 2;
-					$(".side-ad").css("top", top + offsetTop + "px");
+//					$(".side-ad").css("top", top + offsetTop + "px");
 
 					$(document).scroll(function() {
 						offsetTop = $(window).scrollTop();
@@ -3325,6 +3327,7 @@ $(document).ready(function(){
 		}else{
 			$div.stop(true,false).animate({"left":"-="+$width+"px"},600);
 			$page++;
+			
 		}
 	});
 	$(".icon-right").click(function(){
@@ -3334,6 +3337,7 @@ $(document).ready(function(){
 		}else{
 			$div.animate({"left":"+="+$width+"px"},600);
 			$page--;
+			console.log("+="+$width+"px");
 		}
 	});
 });

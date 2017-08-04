@@ -44,13 +44,13 @@
 .top li span:after{
 	display: inline-block;
 	content: ">";
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
+	/*-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);*/
 	transform: rotate(90deg);
 }
 .top li.active span:after{
-	-webkit-transform: rotate(270deg);
-	-moz-transform: rotate(270deg);
+	/*-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);*/
 	transform: rotate(270deg);}
 	.top ul li:hover{
 	background-color: white;}
@@ -66,7 +66,7 @@
 	line-height: 32px;
 	position: absolute;
 	border: solid 1px gainsboro;
-	border-top-color: #fff;
+	/*border-top-color: #fff;*/
 	top: 40px;
 	left: 0px;
 }
@@ -90,7 +90,8 @@ z-index: 99999;}
 }
 .head .hdlogo1{width: 240px;
 height: 115px;
-float: left;}
+float: left;
+}
 .head .hdlogo2{
 	float: left;
     width: 250px;
