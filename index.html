@@ -2781,7 +2781,7 @@
 	  						<div class="feedback-qy">就职:上海尚****股份有限公司</div>
 	  					</div>
 	  				</li>	  			
-	  			    <li style="background-color:red;"><a class="feedback-headimg"><img src="images/就业明星/2.jpg"/><span>张琼</span></a>
+	  			    <li ><a class="feedback-headimg"><img src="images/就业明星/2.jpg"/><span>张琼</span></a>
 	  					<div class="feedback-info">
 	  						<div class="feedback-desc">室内设计专业</div>
 	  						<a style="color:#666 ; font-size: 14px;">学院创造的一种积极向上、严谨专注的学习氛围深深的感染着我，在这里短短几个月的时间，所学所想都让我对未来更有了信心</a>
@@ -3159,7 +3159,7 @@
 			var list = $(".tempWrap ul li");
 			var ul = $(".tempWrap ul");
 			ul.width(list.length * 270);
-//			console.log(ul.width);
+			console.log(ul.width );
 			var v = -50;// 滚动的速度
 			var timeOut = 200;//定时器时长
 			var left = 0;//左偏移
@@ -3209,7 +3209,8 @@ $(".hand li").hover(function() {
 //jiuyemingxing 
 $(document).ready(function(){
 	var $width=$(".pcont").width();
-	var $div=$(".pcont");
+	var $div=$(".feedback-list");
+	
 	var $page=1;
 	var $img=$(".pcont ul li").length;
 	var $pagesize=3;
@@ -3234,6 +3235,8 @@ $(document).ready(function(){
 		}
 	});
 });
+
+			
 //合作企业
             $(document).ready(function(){
             var list = $(".conin ul li");

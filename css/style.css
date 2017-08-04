@@ -668,7 +668,9 @@ color: #CCCCCC;}
 .icon-left:hover{background-color: #333333;
 cursor: pointer;
 color: #CCCCCC;}
-.feedback-list{width:2202px;
+.pcont{position: relative;}
+.feedback-list{position: absolute;
+	width:2202px;
 height: 180px;
 overflow: hidden;}
 .feedback-list li{width: 366.667px;
@@ -776,15 +778,15 @@ position: relative;}
 	height: 68px;
 	width: 40px;
 	font-size: 40px;
-	
+	margin-top: -30px;
 	text-align: center;
 	position: absolute;
 	top: 50%;
-	margin-top: -3184px;
+	
 }
 .conin{width: 1110px;
 height: 100px;
-position: absolute;
+position: relative;
 left: 45px;
 overflow: hidden;}
 .rightBotton:hover{background-color: #999999; color: #CCCCCC;}
@@ -793,7 +795,8 @@ overflow: hidden;}
 .leftBotton{left: 0px;}
 .conin ul{height: 100px;
 width: 3312px;
-padding: 5px;}
+padding: 5px;
+position: absolute;}
 .conin ul li{float: left;
 width: 170px;
 height: 80px;
