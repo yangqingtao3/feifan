@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/xxzx.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="contain">
+			<div id="contain-left">
+				<div class="contain-line">
+					<h2>学习资讯</h2>
+				</div>
+				<div class="contain-dh1">
+					<ul>
+						<li><a>平面UI资讯</a></li>
+						<li><a>室内景观资讯</a></li>
+						<li><a>网页行业资讯</a></li>
+						<li><a>服装设计资讯</a></li>
+						<li><a>网络营销资讯</a></li>
+						<li><a>企业培训资讯</a></li>
+						<li><a>械模具资讯</a></li>
+						<li><a>办公美术资讯</a></li>
+						<li><a>学历考证资讯</a></li>
+						<li><a>网络工程资讯</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="contain-right">
+				<div class="contain-title">
+					<div class="fr">
+						<input type="text" />
+						<a>搜索</a>
+					</div>
+					<div class="contain-line1"><div class="ui"><a>平面UI资讯</a></div></div>
+					
+				</div>
+			     <div id="s6">
+			     	<div class="Cons_news">
+			     		
+			     	</div>
+			     </div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="footer"></div>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#header").load("top.html");
+			$("#footer").load("foot.html");
+			$(document).ready(function(){
+				$(".contain-line h2").click(function(){
+					$(".contain-dh1 ul").fadeIn();
+				});
+//				},$(".contain-dh1 ul").fadeOut());
+			});
+			
+		</script>
+	</body>
+</html>
