@@ -36,7 +36,8 @@ font-size: 14px;}
 width: 950px;
 box-sizing: border-box;
 float: left;}
-.contain-title{padding: 0 30px;}
+.contain-title{padding: 0 30px;
+border-bottom: solid 1px #EAEAEA;}
 .ui a{font-size: 16px;
 font-family: "microsoft yahei";
 font-weight: bold;
@@ -60,3 +61,43 @@ padding: 30px;
 }
 .Cons_news{margin-bottom: 20px;
 width: 100%;}
+.Cons_news{margin-bottom: 20px;}
+.Cons_news ul li{margin: 0px 0 20px 0;
+border-bottom: solid 1px #eaeaea;
+height: 148px;
+background-color: red;}
+.Cons_news_fl{float: left;
+width: 80%;
+}
+.Cons_news li h1{font-size: 16px;
+color: #333;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+font-weight: lighter;
+width: 80%;
+text-align: left;
+line-height: 30px;
+}
+.Cons_news_t{margin-top: 10px;}
+.Cons_news li div{font-size: 14px;
+color: #999;
+line-height: 22px;
+}
+.yj{background: url(../images/xxzx/a.png) no-repeat;
+font-size: 14px;
+color: #999;
+padding-left: 28px;
+margin-left: 50px;
+}
+.Cons_news_b{margin: 10px;
+    margin-left: 10px;
+margin-left: 0px;
+line-height: 22px;}
+.Cons_news_fr{float: right;}
+.Cons_news_fr img{width: 115px;
+height: 115px;
+border-radius: 80px;
+display: block;
+margin: 0 auto 10px;
+}
