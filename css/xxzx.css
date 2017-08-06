@@ -65,7 +65,7 @@ width: 100%;}
 .Cons_news ul li{margin: 0px 0 20px 0;
 border-bottom: solid 1px #eaeaea;
 height: 148px;
-background-color: red;}
+/*background-color: red;*/}
 .Cons_news_fl{float: left;
 width: 80%;
 }
@@ -79,6 +79,7 @@ width: 80%;
 text-align: left;
 line-height: 30px;
 }
+.Cons_news li h1:hover{color: #DD2727;}
 .Cons_news_t{margin-top: 10px;}
 .Cons_news li div{font-size: 14px;
 color: #999;
@@ -101,3 +102,16 @@ border-radius: 80px;
 display: block;
 margin: 0 auto 10px;
 }
+.green-black a{font-size: 14px;
+border-radius: 3px;
+border: solid 1px #EAEAEA;
+padding: 10px 26px;
+line-height: 28px;
+text-align: center;
+margin-left: 10px;}
+.green-black{margin: 0 auto;
+padding: 3px;
+text-align: center;}
+.green-black a:hover{background-color: #DD2727;
+color: white;
+cursor: pointer;}
