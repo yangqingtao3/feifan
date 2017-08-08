@@ -18,7 +18,7 @@
 			}
 			.right{float: right;
 			margin-right: 90px;}
-			.top{
+			.top{min-width: 1200px;
 				height: 40px;
 				width: 100%;
 				line-height: 40px;

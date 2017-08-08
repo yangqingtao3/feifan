@@ -1,0 +1,26 @@
+.dy{padding: 4px 8px;
+font-size: 16px;}
+.s2{padding: 20px 15px;}
+.plist li{width: 30%;
+float: left;
+/*background-color: red;*/
+/*height: 200px;*/
+margin: 1%;}
+.p-hot{overflow: hidden;}
+.p-hot img{width: 100%;
+height: 180px;
+transition: all 0.6s;}
+.p-hot img:hover{
+	transform: scale(1.4);
+}
+.link-listen{float: right;
+font-size: 14px;
+color: #999;
+cursor: pointer;}
+.yp{display: block;
+line-height: 34px;
+font-size: 14px;
+color: #333;}
+.zd{font-size: 14px;
+}
+.link-listen:hover{color: greenyellow;}

@@ -195,10 +195,10 @@
 			$("#header").load("top.html");
 			$("#footer").load("foot.html");
 			$(document).ready(function(){
-				$(".contain-line h2").click(function(){
-					$(".contain-dh1 ul").fadeIn();
+				$(".contain-line h2").hover(function(){
+					$(".contain-dh1 ul").fadeIn().slideDown(600,function(){});
 				});
-//				},$(".contain-dh1 ul").fadeOut());
+//				
 			});
 			
 		</script>
