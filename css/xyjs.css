@@ -1,0 +1,22 @@
+.js{font-family: "微软雅黑";
+font-size: 14px;
+line-height: 28px;
+color: #333;
+margin: 0 auto;
+padding: 30px;
+}
+.wenzhang span{line-height: 24px!important;
+
+color: #333;
+text-indent: 2em;
+font-size: 14px!important;
+display: block;}
+/*.js{height: 1000px;}
+.wenzhang{height: inherit;}*/
+.tupian ul li{padding: 5px;
+width: 32%;
+float: left;}
+.wz{text-align: center;
+color: #333333;
+font-size: 14px;}
+.tupian{text-align: justify;}
